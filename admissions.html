@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admissions - Hosanna Secondary School</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/Logos.png" alt="Hosanna Secondary School Logo">
+                <div class="logo-text">
+                    <h1>Hosanna Secondary School</h1>
+                    <p>Excellence in Education</p>
+                </div>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="academics.html">Academics</a></li>
+                    <li><a href="admissions.html" class="active">Admissions</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Admissions</h1>
+            <p>Join our community of learners and future leaders</p>
+        </div>
+    </section>
+
+    <section class="admission-guidelines">
+        <div class="container">
+            <h2>Admission Guidelines</h2>
+            <div class="guidelines-grid">
+                <div class="guideline">
+                    <h3>S1 Admission Requirements</h3>
+                    <ul>
+                        <li>Primary Leaving Examination (PLE) Certificate</li>
+                        <li>Birth Certificate or Statutory Declaration of Age</li>
+                        <li>Passport-size photographs (4 copies)</li>
+                        <li>Medical Certificate from a recognized health facility</li>
+                        <li>Completed application form</li>
+                        <li>Payment of application fee (UGX 50,000)</li>
+                    </ul>
+                </div>
+                <div class="guideline">
+                    <h3>S5 Admission Requirements</h3>
+                    <ul>
+                        <li>Uganda Certificate of Education (UCE) with minimum 5 passes</li>
+                        <li>Academic transcripts from previous school</li>
+                        <li>Letter of recommendation from previous school</li>
+                        <li>Birth Certificate</li>
+                        <li>Passport-size photographs (4 copies)</li>
+                        <li>Medical Certificate</li>
+                        <li>Completed application form</li>
+                        <li>Payment of application fee (UGX 75,000)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="application-process">
+        <div class="container">
+            <h2>Application Process</h2>
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Submit Application</h3>
+                    <p>Complete and submit the application form with all required documents</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Document Review</h3>
+                    <p>Our admissions team reviews your application and supporting documents</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Interview/Assessment</h3>
+                    <p>Attend an interview or assessment session (if required)</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Admission Decision</h3>
+                    <p>Receive notification of admission decision within 2 weeks</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">5</div>
+                    <h3>Enrollment</h3>
+                    <p>Complete enrollment by paying fees and attending orientation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="application-form">
+        <div class="container">
+            <h2>Online Application Form</h2>
+            <form class="admission-form">
+                <div class="form-section">
+                    <h3>Student Information</h3>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="firstName">First Name *</label>
+                            <input type="text" id="firstName" name="firstName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Last Name *</label>
+                            <input type="text" id="lastName" name="lastName" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="dateOfBirth">Date of Birth *</label>
+                            <input type="date" id="dateOfBirth" name="dateOfBirth" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="gender">Gender *</label>
+                            <select id="gender" name="gender" required>
+                                <option value="">Select Gender</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="classApplying">Class Applying For *</label>
+                            <select id="classApplying" name="classApplying" required>
+                                <option value="">Select Class</option>
+                                <option value="s1">Senior 1 (S1)</option>
+                                <option value="s2">Senior 2 (S2)</option>
+                                <option value="s3">Senior 3 (S3)</option>
+                                <option value="s4">Senior 4 (S4)</option>
+                                <option value="s5">Senior 5 (S5)</option>
+                                <option value="s6">Senior 6 (S6)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="previousSchool">Previous School</label>
+                            <input type="text" id="previousSchool" name="previousSchool">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-section">
+                    <h3>Parent/Guardian Information</h3>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="parentName">Parent/Guardian Name *</label>
+                            <input type="text" id="parentName" name="parentName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="relationship">Relationship *</label>
+                            <select id="relationship" name="relationship" required>
+                                <option value="">Select Relationship</option>
+                                <option value="father">Father</option>
+                                <option value="mother">Mother</option>
+                                <option value="guardian">Guardian</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="parentPhone">Phone Number *</label>
+                            <input type="tel" id="parentPhone" name="parentPhone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="parentEmail">Email Address</label>
+                            <input type="email" id="parentEmail" name="parentEmail">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Home Address *</label>
+                        <textarea id="address" name="address" rows="3" required></textarea>
+                    </div>
+                </div>
+
+                <div class="form-section">
+                    <h3>Additional Information</h3>
+                    <div class="form-group">
+                        <label for="specialNeeds">Special Needs or Medical Conditions</label>
+                        <textarea id="specialNeeds" name="specialNeeds" rows="3" placeholder="Please describe any special needs or medical conditions"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="interests">Interests and Hobbies</label>
+                        <textarea id="interests" name="interests" rows="3" placeholder="Tell us about your interests and hobbies"></textarea>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Submit Application</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="fee-structure">
+        <div class="container">
+            <h2>Fee Structure (2025)</h2>
+            <div class="fee-tables">
+                <div class="fee-table">
+                    <h3>Day Students</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Class</th>
+                                <th>Tuition (Per Term)</th>
+                                <th>Other Fees</th>
+                                <th>Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>S1 - S4</td>
+                                <td>UGX 450,000</td>
+                                <td>UGX 150,000</td>
+                                <td>UGX 600,000</td>
+                            </tr>
+                            <tr>
+                                <td>S5 - S6</td>
+                                <td>UGX 550,000</td>
+                                <td>UGX 200,000</td>
+                                <td>UGX 750,000</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="fee-table">
+                    <h3>Boarding Students</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Class</th>
+                                <th>Tuition (Per Term)</th>
+                                <th>Boarding & Other Fees</th>
+                                <th>Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>S1 - S4</td>
+                                <td>UGX 450,000</td>
+                                <td>UGX 650,000</td>
+                                <td>UGX 1,100,000</td>
+                            </tr>
+                            <tr>
+                                <td>S5 - S6</td>
+                                <td>UGX 550,000</td>
+                                <td>UGX 700,000</td>
+                                <td>UGX 1,250,000</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="fee-notes">
+                <h4>Payment Information:</h4>
+                <ul>
+                    <li>Fees are payable at the beginning of each term</li>
+                    <li>Payment plans available upon request</li>
+                    <li>Fees include textbooks and basic stationery</li>
+                    <li>Uniform and sports kit are additional</li>
+                    <li>Transport fees apply for students using school transport</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Hosanna Secondary School</h3>
+                    <p>Committed to providing quality education and nurturing future leaders through academic excellence and moral development.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="academics.html">Academics</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-phone"></i> +256 753 456 789</p>
+                    <p><i class="fas fa-envelope"></i> info@hosannasecondary.ac.ug</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Kampala, Uganda</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Hosanna Secondary School. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
